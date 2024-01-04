@@ -1,0 +1,102 @@
+/* Style for the signup form container */
+form {
+  text-align: center; /* Center-align form content */
+  margin: 20px auto; /* Center the form horizontally */
+  padding: 20px ;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  width: 40%; /* Adjust the width as needed */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow for depth */
+}
+
+/* Style for the form headings */
+h3 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Style for the form labels */
+label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+/* Style for the input fields */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 70%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  transition: border-color 0.2s ease-in-out; /* Add a smooth transition effect on hover/focus */
+}
+
+/* Style for the submit button */
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 15px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out; /* Add a smooth transition effect on hover */
+}
+
+/* Style for the submit button on hover */
+button[type="submit"]:hover {
+  background-color: #0056b3; /* Darker shade of primary color on hover */
+}
+
+/* Style for the marquee */
+marquee h3 {
+  font-size: 24px;
+  color: #666;
+  margin-top: 20px;
+}
+
+/* Add this to your CSS file */
+.center-buttons {
+  text-align: center;
+}
+
+.auth-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.large-button {
+  font-size: 24px;
+  padding: 15px 30px;
+}
+/* styles.css */
+
+
+/* styles.css */
+.background-container {
+  background-image: url(../../assets/aaa.jpg);
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+  height: 100vh;
+}
+

@@ -1,0 +1,43 @@
+/* Style for the navigation bar */
+nav {
+    background-color: #c17127; /* Set the background color */
+    color: #fff; /* Set text color to white */
+    padding: 10px 20px; /* Add padding for better spacing */
+    display: flex; /* Use flexbox to align items */
+    justify-content: space-between; /* Space items horizontally */
+    align-items: center; /* Center items vertically */
+    height: 70px;
+    font-size: 25px;
+  }
+  
+  /* Style for the title */
+  h1 {
+    font-size: 24px; /* Set font size */
+    margin: 0; /* Remove margin to align with the list */
+  }
+  
+  /* Style for the list */
+  ul {
+    list-style: none; /* Remove bullet points from the list */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Use flexbox to align items */
+  }
+  
+  /* Style for list items */
+  li {
+    margin-right: 20px; /* Add some spacing between list items */
+  }
+  
+  /* Style for links */
+  a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* Set link color to white */
+    font-weight: bold; /* Make the text bold */
+  }
+  
+  /* Hover effect for links */
+  a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  

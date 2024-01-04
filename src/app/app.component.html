@@ -1,0 +1,13 @@
+<nav>
+  <h1>To-do App</h1>
+  <ul>
+    <li><button [routerLink]="['/']" [disabled]="!isLoggedIn">Home</button></li>
+    <li><button [routerLink]="['/add-task']" [disabled]="!isLoggedIn">Add Task</button></li>
+    <li><button [routerLink]="['/view-list']" [disabled]="!isLoggedIn">View List</button></li>
+    <li><button [routerLink]="['/dashboard']" [disabled]="!isLoggedIn">Dashboard</button></li>
+    <li><button (click)="logout()">Logout</button></li>
+  </ul>
+</nav>
+<router-outlet></router-outlet>
+
+

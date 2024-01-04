@@ -1,0 +1,32 @@
+/* Style for the "View Tasks" container */
+div {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Style for the table */
+  table {
+    width: 80%;
+    margin: 0 auto; /* Center the table horizontally */
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+  }
+  
+  /* Style for table headings (th) */
+  th {
+    background-color: #007bff; /* Header background color */
+    color: #fff; /* Header text color */
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  /* Style for table data cells (td) */
+  td {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  /* Style for odd rows (zebra-striping) */
+  tr:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
